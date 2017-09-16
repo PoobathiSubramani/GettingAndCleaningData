@@ -35,21 +35,25 @@ fBodyGyroJerkMag
 UPDATES
 ==========================
 the variables that are included in the summary data file are as follows:
- [1] "subject"                   "activityName"              "tBodyAcc-mean-X"           "tBodyAcc-mean-Y"           "tBodyAcc-mean-Z"          
- [6] "tBodyAcc-std-X"            "tBodyAcc-std-Y"            "tBodyAcc-std-Z"            "tGravityAcc-mean-X"        "tGravityAcc-mean-Y"       
-[11] "tGravityAcc-mean-Z"        "tGravityAcc-std-X"         "tGravityAcc-std-Y"         "tGravityAcc-std-Z"         "tBodyAccJerk-mean-X"      
-[16] "tBodyAccJerk-mean-Y"       "tBodyAccJerk-mean-Z"       "tBodyAccJerk-std-X"        "tBodyAccJerk-std-Y"        "tBodyAccJerk-std-Z"       
-[21] "tBodyGyro-mean-X"          "tBodyGyro-mean-Y"          "tBodyGyro-mean-Z"          "tBodyGyro-std-X"           "tBodyGyro-std-Y"          
-[26] "tBodyGyro-std-Z"           "tBodyGyroJerk-mean-X"      "tBodyGyroJerk-mean-Y"      "tBodyGyroJerk-mean-Z"      "tBodyGyroJerk-std-X"      
-[31] "tBodyGyroJerk-std-Y"       "tBodyGyroJerk-std-Z"       "tBodyAccMag-mean"          "tBodyAccMag-std"           "tGravityAccMag-mean"      
-[36] "tGravityAccMag-std"        "tBodyAccJerkMag-mean"      "tBodyAccJerkMag-std"       "tBodyGyroMag-mean"         "tBodyGyroMag-std"         
-[41] "tBodyGyroJerkMag-mean"     "tBodyGyroJerkMag-std"      "fBodyAcc-mean-X"           "fBodyAcc-mean-Y"           "fBodyAcc-mean-Z"          
-[46] "fBodyAcc-std-X"            "fBodyAcc-std-Y"            "fBodyAcc-std-Z"            "fBodyAccJerk-mean-X"       "fBodyAccJerk-mean-Y"      
-[51] "fBodyAccJerk-mean-Z"       "fBodyAccJerk-std-X"        "fBodyAccJerk-std-Y"        "fBodyAccJerk-std-Z"        "fBodyGyro-mean-X"         
-[56] "fBodyGyro-mean-Y"          "fBodyGyro-mean-Z"          "fBodyGyro-std-X"           "fBodyGyro-std-Y"           "fBodyGyro-std-Z"          
-[61] "fBodyAccMag-mean"          "fBodyAccMag-std"           "fBodyBodyAccJerkMag-mean"  "fBodyBodyAccJerkMag-std"   "fBodyBodyGyroMag-mean"    
-[66] "fBodyBodyGyroMag-std"      "fBodyBodyGyroJerkMag-mean" "fBodyBodyGyroJerkMag-std" 
+[1] "subject"                       "activityName"                  "mean_BodyAcc-mean-X"           "mean_BodyAcc-mean-Y"          
+ [5] "mean_BodyAcc-mean-Z"           "mean_BodyAcc-std-X"            "mean_BodyAcc-std-Y"            "mean_BodyAcc-std-Z"           
+ [9] "mean_GravityAcc-mean-X"        "mean_GravityAcc-mean-Y"        "mean_GravityAcc-mean-Z"        "mean_GravityAcc-std-X"        
+[13] "mean_GravityAcc-std-Y"         "mean_GravityAcc-std-Z"         "mean_BodyAccJerk-mean-X"       "mean_BodyAccJerk-mean-Y"      
+[17] "mean_BodyAccJerk-mean-Z"       "mean_BodyAccJerk-std-X"        "mean_BodyAccJerk-std-Y"        "mean_BodyAccJerk-std-Z"       
+[21] "mean_BodyGyro-mean-X"          "mean_BodyGyro-mean-Y"          "mean_BodyGyro-mean-Z"          "mean_BodyGyro-std-X"          
+[25] "mean_BodyGyro-std-Y"           "mean_BodyGyro-std-Z"           "mean_BodyGyroJerk-mean-X"      "mean_BodyGyroJerk-mean-Y"     
+[29] "mean_BodyGyroJerk-mean-Z"      "mean_BodyGyroJerk-std-X"       "mean_BodyGyroJerk-std-Y"       "mean_BodyGyroJerk-std-Z"      
+[33] "mean_BodyAccMag-mean"          "mean_BodyAccMag-std"           "mean_GravityAccMag-mean"       "mean_GravityAccMag-std"       
+[37] "mean_BodyAccJerkMag-mean"      "mean_BodyAccJerkMag-std"       "mean_BodyGyroMag-mean"         "mean_BodyGyroMag-std"         
+[41] "mean_BodyGyroJerkMag-mean"     "mean_BodyGyroJerkMag-std"      "mean_BodyAcc-mean-X"           "mean_BodyAcc-mean-Y"          
+[45] "mean_BodyAcc-mean-Z"           "mean_BodyAcc-std-X"            "mean_BodyAcc-std-Y"            "mean_BodyAcc-std-Z"           
+[49] "mean_BodyAccJerk-mean-X"       "mean_BodyAccJerk-mean-Y"       "mean_BodyAccJerk-mean-Z"       "mean_BodyAccJerk-std-X"       
+[53] "mean_BodyAccJerk-std-Y"        "mean_BodyAccJerk-std-Z"        "mean_BodyGyro-mean-X"          "mean_BodyGyro-mean-Y"         
+[57] "mean_BodyGyro-mean-Z"          "mean_BodyGyro-std-X"           "mean_BodyGyro-std-Y"           "mean_BodyGyro-std-Z"          
+[61] "mean_BodyAccMag-mean"          "mean_BodyAccMag-std"           "mean_BodyBodyAccJerkMag-mean"  "mean_BodyBodyAccJerkMag-std"  
+[65] "mean_BodyBodyGyroMag-mean"     "mean_BodyBodyGyroMag-std"      "mean_BodyBodyGyroJerkMag-mean" "mean_BodyBodyGyroJerkMag-std" 
 
+mean_ : mean of the feature from the original data set. mean_BodyAcc-mean-Z - is the mean(BodyAcc-mean()-Z)
 
 mean : Mean value. The opening and closing brackets () have been removed from the variable names to make is cleaner
 std : Standard Deviation value. The opening and closing brackets () have been removed from the variable names to make is cleaner
