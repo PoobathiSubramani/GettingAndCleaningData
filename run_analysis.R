@@ -71,6 +71,9 @@ library(dplyr)
 std_mean_data_summary <- std_mean_data %>% group_by_("subject","activityName") %>% 
     summarize_at(.vars = unlist(selcols$headerName),
                  .funs = "mean")
+                                   
+#update the column names based on the new definition
+colnames(std_mean_data_summary) <- sub("^t|^f","mean_",colnames(std_mean_data_summary))                                   
 
 #create a file with the tidy data subset
 write.table(std_mean_data_summary, file = paste0(datapath,"data_summary.txt"), row.names = F )
