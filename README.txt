@@ -18,7 +18,19 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 [UPDATES] run_analysis.R
 ==========================
-this R code reads data from test and train folders, cleans and combine the data and produces a subset of data. The subset of data is uploaded (data_summary.txt). The other descriptions of the R code is provided in the code file itself.
+this R file reads the orginal test and train data files and others to perform the analysis and to produce the data file
+
+1. setting the file path (to run the code locally, update the filepath in the first step
+2. all other file locations are pre-determined
+3. required files were read
+4. the i/p file headers are cleaned and updated
+5. activity data is combined with subject and measurement data (test and train data)
+6. test and train data are combined
+7. from the whole dataset, only STD and MEAN data are seperated out
+8. mean is calculated for the subject and activity
+9. a data file is created
+
+The subset of data is uploaded (data_summary.txt). The other descriptions of the R code is provided in the code file itself.
 
 For each record it is provided:
 ======================================
